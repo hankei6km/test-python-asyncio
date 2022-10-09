@@ -1,6 +1,9 @@
 {
   "name": "python",
-  "image": "ghcr.io/hankei6km/h6-dev-containers:2022-10-08-main-python",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
   "runArgs": ["--init", "--privileged"],
   "overrideCommand": false,
 
