@@ -1,0 +1,1 @@
+from test_fixture import aio_benchmark
